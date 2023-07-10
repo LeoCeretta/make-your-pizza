@@ -1,0 +1,116 @@
+{
+  "ingredientes": {
+    "massas": [
+      {
+        "id": 1,
+        "tipo": "Estilo americana"
+      },
+      {
+        "id": 2,
+        "tipo": "Estilo brasileira"
+      },
+      {
+        "id": 3,
+        "tipo": "Sem lactose"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "recheios": [
+      {
+        "id": 1,
+        "tipo": "Portuguesa"
+      },
+      {
+        "id": 2,
+        "tipo": "4 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 4,
+        "tipo": "Mussarela"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Borda de catupiry"
+      },
+      {
+        "id": 2,
+        "tipo": "Borda de cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Borda de chocolate"
+      },
+      {
+        "id": 4,
+        "tipo": "Dobro de recheio"
+      },
+      {
+        "id": 4,
+        "tipo": "Coca-cola"
+      },
+      {
+        "id": 4,
+        "tipo": "Coca-cola zero"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "pizzas": [
+    {
+      "nome": "Leo",
+      "recheio": "4 Queijos",
+      "massa": "Sem lactose",
+      "opcionais": [
+        "Borda de catupiry",
+        "Dobro de recheio"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Leo",
+      "recheio": "4 Queijos",
+      "massa": "Sem lactose",
+      "opcionais": [
+        "Borda de catupiry",
+        "Dobro de recheio"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Leo",
+      "recheio": "4 Queijos",
+      "massa": "Sem lactose",
+      "opcionais": [
+        "Borda de catupiry",
+        "Dobro de recheio",
+        "Coca-cola zero"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    }
+  ]
+}
