@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Componente de mensagem</p>
+        <Message :msg="msg" v-show="msg"/>
         <div>
             <form id="pizza-form" @submit="createPizza">
                 <div class="input-container">
@@ -43,8 +43,13 @@
 </template>
 
 <script>
+import Message from './Message.vue';
+
 export default {
     name: "PizzaForm",
+    components: {
+        Message
+    },
     data() {
         return {
             massas: null,
@@ -90,8 +95,10 @@ export default {
             const res = await req.json();
             
             // Adicionar mensagem de sistema
+            this.msg = `Pedido Nº ${res.id} realizado com sucesso`;
 
             // limpar msg
+            setTimeout(() => this.msg = "", 3000);
 
             //Limpar os campos
             this.nome = "";
