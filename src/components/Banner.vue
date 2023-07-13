@@ -1,6 +1,6 @@
 <template>
     <div id="main-banner">
-        <h1>Make Your Pizza</h1>
+        <h1>Pizzaria do Léo!</h1>
     </div>
 </template>
 

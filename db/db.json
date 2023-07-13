@@ -79,29 +79,6 @@
   ],
   "pizzas": [
     {
-      "nome": "Leonardo",
-      "recheio": "Calabresa",
-      "massa": "Estilo brasileira",
-      "opcionais": [
-        "Borda de catupiry",
-        "Dobro de recheio",
-        "Coca-cola zero"
-      ],
-      "status": "Finalizado",
-      "id": 2
-    },
-    {
-      "nome": "Tassi",
-      "recheio": "4 Queijos",
-      "massa": "Sem lactose",
-      "opcionais": [
-        "Borda de chocolate",
-        "Coca-cola"
-      ],
-      "status": "Em produção",
-      "id": 3
-    },
-    {
       "nome": "Joãozinho",
       "recheio": "Mussarela",
       "massa": "Integral",
@@ -112,6 +89,19 @@
       ],
       "status": "Em produção",
       "id": 4
+    },
+    {
+      "nome": "et bilu",
+      "recheio": "4 Queijos",
+      "massa": "Sem lactose",
+      "opcionais": [
+        "Borda de catupiry",
+        "Borda de cheddar",
+        "Borda de chocolate",
+        "Dobro de recheio"
+      ],
+      "status": "Solicitado",
+      "id": 5
     }
   ]
 }
