@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        <p>Make Your Pizza &copy; 2023</p>
+        <p>Pizzaria do Léo &copy; 2023</p>
     </div>
 </template>
 
